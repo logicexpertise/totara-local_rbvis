@@ -1,0 +1,30 @@
+/**
+ *
+ * @package
+ * @subpackage
+ * @copyright   2019 Olumuyiwa Taiwo <muyi.taiwo@logicexpertise.com>
+ * @author      Olumuyiwa Taiwo {@link https://moodle.org/user/view.php?id=416594}
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+#page-local-rbvis-dashboard #spinner {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    align-items: center;
+    justify-content: center;
+}
+
+#page-local-rbvis-dashboard #spinner img {
+    margin: auto;
+    width: 32px; 
+}
+
+#page-local-rbvis-dashboard .dashboard-container > #dashboard > table.pvtUi {
+    width: 100%;
+}

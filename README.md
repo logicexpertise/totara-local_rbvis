@@ -9,6 +9,6 @@ The plugin is a __local__ plugin. Installation follows the usual Moodle/Totara p
 2. Follow the usual steps for installing a plugin into Totara
 
 ## Usage
-Once installed, the plugin will create an item __Interactive Visualisation__ under the __Reports__ menu. 
+Once installed, the plugin will create an item __Interactive Visualisation__ under the __Reports__ menu (Totara 10 and 11), or a top-level item in the Totara main menu (Totara 12). 
 
 Click to be taken to the visualisation page where can select the report you want to visualise.

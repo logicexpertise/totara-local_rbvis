@@ -9,8 +9,8 @@
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$plugin->version  = 2019080700;
+$plugin->version  = 2019082200;
 $plugin->requires = 2016120504; 
 $plugin->component = 'local_rbvis';
-$plugin->release = '10.0.1';
+$plugin->release = '10.0.2';
 $plugin->maturity = MATURITY_ALPHA;

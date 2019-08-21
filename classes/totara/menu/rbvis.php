@@ -9,9 +9,7 @@
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace local_rbvis\menu;
-
-use \totara_core\totara\menu\menu as totara_core_menu;
+namespace local_rbvis\totara\menu;
 
 class rbvis extends \totara_core\totara\menu\item {
     protected function get_default_title() {
@@ -21,12 +19,8 @@ class rbvis extends \totara_core\totara\menu\item {
         return '/local/rbvis/dashboard.php';
         
     }
-    
-    protected function get_default_parent() {
-        return '\totara_core\totara\menu\myreports';
-    }
-    
+        
     public function get_default_visibility() {
-        return totara_core_menu::SHOW_ALWAYS;
+        return \totara_core\totara\menu\item::VISIBILITY_SHOW;
     }
 }

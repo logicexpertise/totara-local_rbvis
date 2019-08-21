@@ -10,7 +10,7 @@
  */
 
 $plugin->version  = 2019080700;
-$plugin->requires = 2016120504; 
+$plugin->requires = 2017051509; 
 $plugin->component = 'local_rbvis';
-$plugin->release = '10.0.1';
+$plugin->release = '12.0.1';
 $plugin->maturity = MATURITY_ALPHA;

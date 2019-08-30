@@ -17,7 +17,7 @@ require_login();
 $PAGE->set_context(context_user::instance($USER->id));
 $PAGE->set_url('/local/rbvis/dashboard.php');
 $PAGE->set_pagelayout('noblocks');
-$PAGE->set_totara_menu_selected('rbvis');
+$PAGE->set_totara_menu_selected('\local_rbvis\totara\menu\rbvis');
 $PAGE->set_title(get_string('dashboardvis', 'local_rbvis'));
 $PAGE->requires->js_call_amd('local_rbvis/dashboard', 'init');
 $PAGE->requires->js('/local/rbvis/ext/jquery_ui_touch_punch/jquery.ui.touch-punch.min.js');
